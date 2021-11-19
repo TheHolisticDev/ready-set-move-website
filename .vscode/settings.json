@@ -1,0 +1,8 @@
+{
+    "eslint.workingDirectories": [],
+    "eslint.format.enable": true,
+    "javascript.format.enable": false,
+    "typescript.format.enable": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}

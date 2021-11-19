@@ -1,0 +1,8 @@
+{
+    "short_name": "RSM",
+    "name": "Ready Set Move Website",
+    "start_url": ".",
+    "display": "browser",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

@@ -1,0 +1,20 @@
+[ignore]
+./src/**/*spec.js
+
+[include]
+./src/**/*.js
+
+[libs]
+
+[lints]
+
+[options]
+sharedmemory.heap_size=3221225472
+module.name_mapper='^\([^\.].*\)$' -> '<PROJECT_ROOT>/src/\1'
+module.name_mapper.extension='svg' -> '<PROJECT_ROOT>/SVGModule.js.flow'
+module.name_mapper.extension='webp' -> '<PROJECT_ROOT>/SVGModule.js.flow'
+module.name_mapper.extension='avif' -> '<PROJECT_ROOT>/SVGModule.js.flow'
+module.file_ext=.js
+module.file_ext=.json
+
+[strict]

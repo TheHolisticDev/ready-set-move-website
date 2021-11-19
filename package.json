@@ -1,0 +1,102 @@
+{
+  "name": "ready-set-move-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "flow": "flow check && :",
+    "start": "ENVIRONMENT=development react-static start",
+    "bundle": "react-static bundle",
+    "stage:build": "ENVIRONMENT=staging react-static build --staging",
+    "build": "react-static build",
+    "lint": "./node_modules/eslint/bin/eslint.js --max-warnings 0 .",
+    "analyze": "react-static build --analyze",
+    "serve": "ENVIRONMENT=development serve dist -p 3000",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fontsource/aileron": "^4.5.0",
+    "@fontsource/eczar": "^4.5.0",
+    "@fontsource/roboto": "^4.5.0",
+    "@fontsource/source-sans-pro": "^4.5.0",
+    "@formoe/use-scroll-listener": "^1.0.3",
+    "@formoe/use-toggle": "^1.0.3",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@reach/router": "^1.3.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet-async": "^1.0.9"
+  },
+  "devDependencies": {
+    "@babel/preset-flow": "^7.13.13",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^13.1.8",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-config-react-tools": "^1.1.7",
+    "eslint-plugin-flowtype": "^5.2.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "flow-bin": "0.143.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "jest-environment-jsdom-sixteen": "^2.0.0",
+    "jest-svg-transformer": "^1.0.0",
+    "prettier": "^2.2.1",
+    "react-hot-loader": "^4.13.0",
+    "react-static": "^7.6.2",
+    "react-static-plugin-favicons": "^2.0.0",
+    "react-static-plugin-reach-router": "^7.6.2",
+    "react-static-plugin-sitemap": "^7.6.2",
+    "react-static-plugin-source-filesystem": "^7.6.2",
+    "serve": "^11.3.2"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom-sixteen",
+    "clearMocks": true,
+    "testTimeout": 20000,
+    "setupFilesAfterEnv": [
+      "<rootDir>/test/jest.setup.js"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 85,
+        "functions": 85,
+        "lines": 85,
+        "statements": 85
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ],
+    "moduleDirectories": [
+      "<rootDir>/src",
+      "node_modules"
+    ],
+    "modulePathIgnorePatterns": [
+      "dist"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy",
+      "\\/assets\\/images\\/.*\\.(svg|png)$": "<rootDir>/test/svgrMock.js"
+    },
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      "^.+\\.svg$": "jest-svg-transformer"
+    }
+  }
+}

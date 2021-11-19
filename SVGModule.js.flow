@@ -1,0 +1,5 @@
+// @flow
+import * as React from "react"
+
+declare export var ReactComponent: React.ComponentType<any>
+declare export default React.ComponentType<any>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="752px" viewBox="0 0 1440 752" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>map</title>
+    <g id="map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#002934" x="0" y="0" width="1440" height="752"></rect>
+        <g id="Streets" transform="translate(22.000000, -165.377864)" stroke="#151515">
+            <path d="M800.5,164.877864 C767.119603,361.691475 743.398938,501.652379 729.338006,584.760578 C719.436993,643.281258 714.482172,686.494239 708.225148,748.394982 C704.812783,782.153507 701.571067,838.314468 698.5,916.877864" id="Line" stroke-width="35" stroke-linecap="square"></path>
+            <path d="M868.5,166.877864 C835.119603,363.691475 811.398938,503.652379 797.338006,586.760578 C787.436993,645.281258 782.482172,688.494239 776.225148,750.394982 C772.812783,784.153507 769.571067,840.314468 766.5,918.877864" id="Line" stroke-width="35" stroke-linecap="square"></path>
+            <path d="M835.5,164.877864 C802.119603,361.691475 778.398938,501.652379 764.338006,584.760578 C754.436993,643.281258 749.482172,686.494239 743.225148,748.394982 C739.812783,782.153507 736.571067,838.314468 733.5,916.877864" id="Line" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M766.5,280.497623 C624.78025,258.450399 540.258959,245.74387 512.936126,242.378037 C485.613293,239.012203 450.085963,236.30066 406.354136,234.243407" id="Path" stroke-width="16"></path>
+            <line x1="868.5" y1="268.494115" x2="1440" y2="363.957672" id="Path-2" stroke-width="15"></line>
+            <line x1="1201.81974" y1="166.877864" x2="1133.99151" y2="593.79055" id="Path-3" stroke-width="15"></line>
+            <path d="M749.5,527.067951 C1079.23821,578.627358 1252.37985,609.899881 1268.9249,620.885518 C1288.95524,629.258872 1348.2184,668.527617 1446.71438,738.691752" id="Path-4" stroke-width="20"></path>
+            <line x1="1453" y1="478.377864" x2="1144" y2="944.377864" id="Path-5" stroke-width="28"></line>
+            <path d="M1031.49311,715.984337 C1054.84892,721.931029 1071.05207,725.622188 1080.10254,727.057815 C1126.91369,734.48321 1153.66598,736.038663 1167.90563,740.102245 C1190.51503,748.399889 1216.66083,764.736836 1246.34302,789.113085" id="Path-6" stroke-width="12"></path>
+            <polyline id="Path-7" stroke-width="15" points="383.268785 166.877864 478.071132 466.550972 609.543539 916.877864"></polyline>
+            <line x1="0" y1="629.384788" x2="480.824368" y2="474.886554" id="Path-8" stroke-width="15"></line>
+            <rect id="Rectangle" stroke-width="3" transform="translate(233.536176, 259.213750) rotate(-18.000000) translate(-233.536176, -259.213750) " x="122.536176" y="24.7137497" width="222" height="469" rx="111"></rect>
+        </g>
+        <g id="Names" transform="translate(440.627705, 52.929811)" fill="#A1A1A1" fill-rule="nonzero" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="bold" stroke="#000000" stroke-opacity="0.439002404">
+            <text id="Schönhauser-Allee" transform="translate(357.755913, 526.577259) rotate(-84.000000) translate(-357.755913, -526.577259) " font-size="36" letter-spacing="0.0827586207">
+                <tspan x="210.755913" y="539.077259">Schönhauser Allee</tspan>
+            </text>
+            <text id="Pappelallee" transform="translate(892.464886, 468.924740) rotate(-57.000000) translate(-892.464886, -468.924740) " font-size="36" letter-spacing="0.0827586207">
+                <tspan x="798.464886" y="481.42474">Pappelallee</tspan>
+            </text>
+            <text id="Buchholzer-Straße" transform="translate(631.958819, 77.490191) rotate(9.000000) translate(-631.958819, -77.490191) " font-size="26" letter-spacing="0.0597701149">
+                <tspan x="525.458819" y="86.9901914">Buchholzer Straße</tspan>
+            </text>
+            <text id="Gneisstraße" transform="translate(587.414350, 349.702116) rotate(9.000000) translate(-587.414350, -349.702116) " font-size="26" letter-spacing="0.0597701149">
+                <tspan x="517.91435" y="359.202116">Gneisstraße</tspan>
+            </text>
+            <text id="Cantianstraße" transform="translate(111.397578, 418.812155) rotate(73.000000) translate(-111.397578, -418.812155) " font-size="24" letter-spacing="0.0551724138">
+                <tspan x="35.397578" y="427.312155">Cantianstraße</tspan>
+            </text>
+            <text id="Milastr." transform="translate(40.485005, 18.217623) rotate(4.000000) translate(-40.485005, -18.217623) " font-size="24" letter-spacing="0.0551724138">
+                <tspan x="0.985005328" y="26.7176235">Milastr.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
